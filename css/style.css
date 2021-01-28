@@ -81,7 +81,7 @@ body {
 }
 
 img {
-    width: 450px;
+    width: 650px;
     margin-right: 20px;
     flex-shrink: 0;
 }
@@ -130,3 +130,20 @@ ul {
     margin-right: auto;
     width: 40%;
 }
+
+
+  
+    body {
+      background-color: #F7EFEE;
+    }
+    
+    @media only screen and (max-width: 600px) {
+        .container{
+        flex-direction: column;
+        width: 100%;
+        }
+body {
+        background-color:#F7EFEE;
+      }
+    }
+ 
